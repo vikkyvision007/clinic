@@ -1,0 +1,17 @@
+.section {
+  position: relative;
+  background-image: url('/assets/doctor_banner-1.png');
+  background-size: cover;
+  background-position: center;
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.heading {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.text {
+  font-size: 1.1rem;
+}

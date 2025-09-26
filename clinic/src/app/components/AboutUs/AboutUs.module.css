@@ -1,0 +1,13 @@
+.section {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-green);
+}
+
+
+
+/* Outer circle: thick gray border, white shadow */
+

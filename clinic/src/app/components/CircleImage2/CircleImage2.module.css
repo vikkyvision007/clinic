@@ -1,0 +1,56 @@
+.circle-wrapper {
+  position: relative;
+  width: 350px;
+  height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.circle-image {
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+  background: url('/assets/doctor_img1.png') center/cover no-repeat;
+}
+
+/* Outer circle: thick gray border, white shadow */
+.outer-circle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border: 15px solid #bdbdbd;
+  background: transparent;
+  z-index: 1;
+  pointer-events: none;
+  box-shadow: 0 8px 32px 0 rgba(0,0,0,0.28);
+  transition: box-shadow 0.8s cubic-bezier(.68,-0.55,.27,1.55);
+}
+
+/* Inner circle: thick teal border, white shadow, centered */
+.inner-circle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 260px;
+  height: 260px;
+  border-radius: 50%;
+  border: 15px solid #19a7ae;
+  box-shadow: 0 8px 32px 0 rgba(0,0,0,0.56);
+  background: transparent;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.circle-wrapper:hover .outer-circle {
+  box-shadow: 0 8px 32px 0 rgba(0,0,0,0.56);
+}
+
+.circle-wrapper:hover .inner-circle {
+  box-shadow: 0 8px 32px 0 rgba(0,0,0,0.56);
+}

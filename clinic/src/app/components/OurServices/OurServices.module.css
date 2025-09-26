@@ -1,0 +1,11 @@
+.section {
+  padding: 2rem;
+  background-color: var(--color-yellow);
+}
+.heading {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.text {
+  font-size: 1.1rem;
+}
