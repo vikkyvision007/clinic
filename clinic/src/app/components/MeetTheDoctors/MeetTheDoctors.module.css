@@ -1,11 +1,50 @@
 .section {
   padding: 2rem;
-  background-color: var(--color-peach);
+  background-color: var(--color-light-yellow);
 }
+
 .heading {
   font-size: 2rem;
   font-weight: bold;
 }
+
 .text {
   font-size: 1.1rem;
+}
+
+.chip {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.5rem 1.5rem;
+  background: #fff;
+  border-radius: 999px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.10);
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #295c3c;
+  letter-spacing: 0.02em;
+  border: 1px solid #e0e0e0;
+}
+
+.doctorsRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 2.5rem;
+  margin-top: 2rem;
+}
+
+
+@media (max-width: 700px) {
+  .doctorsRow {
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+  }
+
+  .doctorCard {
+    min-width: unset;
+    width: 100%;
+    max-width: 320px;
+  }
 }

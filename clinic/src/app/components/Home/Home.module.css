@@ -1,9 +1,13 @@
 .section {
   position: relative;
   background-image: url('/assets/doctor_banner-1.png');
+  width: 100%;
   background-size: cover;
+  height: 100%;
+  background-repeat: no-repeat;
   background-position: center;
-  min-height: 400px;
+  min-height: 300px;
+  max-width: 100vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -14,4 +18,53 @@
 }
 .text {
   font-size: 1.1rem;
+}
+
+.careTile {
+  background: #eaf8e2;
+  border-radius: 40px;
+  padding: 3rem 2rem;
+  max-width: 600px;
+  margin: 8% 3vw 2% auto;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.04);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.careTile h1 {
+  font-size: 3rem;
+  font-family: 'Georgia', serif;
+  color: #295c3c;
+  margin-bottom: 1rem;
+  line-height: 1.1;
+}
+
+.careTile h2 {
+  font-size: 1.5rem;
+  color: #295c3c;
+  margin-bottom: 1.5rem;
+  font-family: 'Georgia', serif;
+}
+
+.careTile p {
+  font-size: 1.15rem;
+  color: #295c3c;
+  margin-bottom: 2rem;
+}
+
+.contactBtn {
+  background: none;
+  border: 2px solid #295c3c;
+  border-radius: 50px;
+  padding: 0.75rem 2.5rem;
+  font-size: 1.3rem;
+  color: #295c3c;
+  font-family: 'Georgia', serif;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+.contactBtn:hover {
+  background: #295c3c;
+  color: #eaf8e2;
 }

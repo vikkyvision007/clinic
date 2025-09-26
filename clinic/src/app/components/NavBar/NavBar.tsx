@@ -11,11 +11,9 @@ export default function NavBar() {
         <Link href="/meet-the-doctors" className={styles.menuItem}>Meet the Team</Link>
         <Link href="/testimonials" className={styles.menuItem}>Testimonials</Link>
       </nav>
-      <Link href="/book-appointment" className={styles.bookBtn}>
-        <button type="button" className={styles.bookBtnButton}>
+        <button type="button" className={`${styles.bookBtnButton} btn btn-primary`}>
           Book an Appointment
         </button>
-      </Link>
 
     </header>
   );

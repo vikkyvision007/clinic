@@ -2,17 +2,22 @@
   display: flex;
   align-items: flex-start;
   justify-content: flex-end;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
   gap: 1.5rem;
   padding: 1.5rem 2rem 0 0;
   margin-top: 0.5rem;
 }
+
 .menu {
   display: flex;
   gap: 3rem;
   background: #eae6fa;
   border-radius: 50px;
-  padding: 1.5rem 2.5rem;
+  padding: 1rem 1.5rem;
 }
+
 .menuItem {
   color: #285a46;
   font-size: 1rem;
@@ -20,9 +25,11 @@
   text-decoration: none;
   transition: color 0.2s;
 }
+
 .menuItem:hover {
   color: #1c3c2e;
 }
+
 .contactBtn {
   background: #eaf6e6;
   color: #285a46;
@@ -36,6 +43,7 @@
   border: none;
   cursor: pointer;
 }
+
 .contactBtn:hover {
   background: #d6ecd2;
   color: #1c3c2e;
