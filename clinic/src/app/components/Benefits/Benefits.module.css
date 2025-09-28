@@ -2,10 +2,50 @@
   padding: 2rem;
   background-color: var(--color-peach);
 }
-.heading {
-  font-size: 2rem;
-  font-weight: bold;
+
+.row {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  justify-content: space-evenly;
+  margin: 4rem 0
 }
-.text {
-  font-size: 1.1rem;
+
+.leftColumn {
+  flex: 1;
+}
+
+.rightColumn {
+  flex: 1;
+}
+
+.tile {
+  background: var(--color-grey-light);
+  border-radius: 64px;
+  padding: 3rem 2.5rem;
+  max-width: 600px;
+  color: #23423a;
+  box-shadow: 0 4px 24px rgba(44, 62, 80, 0.12);
+}
+
+.coin {
+  width: 150px;
+  height: 150px;
+  background-color: var(--color-grey-light);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.tileHeading {}
+
+.tileText {}
+
+@media (max-width: 768px) {
+  .row {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
 }

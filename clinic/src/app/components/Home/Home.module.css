@@ -33,24 +33,12 @@
 }
 
 .careTile h1 {
-  font-size: 3rem;
-  font-family: 'Georgia', serif;
-  color: #295c3c;
-  margin-bottom: 1rem;
-  line-height: 1.1;
 }
 
 .careTile h2 {
-  font-size: 1.5rem;
-  color: #295c3c;
-  margin-bottom: 1.5rem;
-  font-family: 'Georgia', serif;
 }
 
 .careTile p {
-  font-size: 1.15rem;
-  color: #295c3c;
-  margin-bottom: 2rem;
 }
 
 .contactBtn {
@@ -60,7 +48,6 @@
   padding: 0.75rem 2.5rem;
   font-size: 1.3rem;
   color: #295c3c;
-  font-family: 'Georgia', serif;
   cursor: pointer;
   transition: background 0.2s, color 0.2s;
 }

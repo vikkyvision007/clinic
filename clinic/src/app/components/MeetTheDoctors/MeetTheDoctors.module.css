@@ -4,8 +4,6 @@
 }
 
 .heading {
-  font-size: 2rem;
-  font-weight: bold;
 }
 
 .text {
@@ -13,25 +11,35 @@
 }
 
 .chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: var(--color-grey-light); /* Use global light gray */
+  border-radius: 30px;
+  box-shadow: 0 4px 16px rgba(44, 62, 80, 0.25), 0 1.5px 6px rgba(44, 62, 80, 0.18); /* Darker, more elevated */
+  padding: 0.5rem 1.2rem;
+  font-size: 1.25rem; /* Increased font size */
+  font-weight: 500;   /* Increased font weight */
+  margin: 1rem;
+}
+
+.chipIcon {
+  width: 1.5rem;
+  height: 1.5rem;
   display: inline-block;
-  margin-top: 1rem;
-  padding: 0.5rem 1.5rem;
-  background: #fff;
-  border-radius: 999px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.10);
-  font-size: 1.1rem;
-  font-weight: 500;
-  color: #295c3c;
-  letter-spacing: 0.02em;
-  border: 1px solid #e0e0e0;
 }
 
 .doctorsRow {
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  gap: 2.5rem;
-  margin-top: 2rem;
+  justify-content: space-evenly;
+  margin: 2rem 0;
+}
+
+.doctorColumn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 
