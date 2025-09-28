@@ -1,11 +1,99 @@
 .section {
-  padding: 2rem;
+  padding: 4rem 2rem;
   background-color: var(--color-green);
+  text-align: center;
 }
 .heading {
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: bold;
+  margin-bottom: 0.5rem;
 }
 .text {
+  font-size: 1.25rem;
+  margin-bottom: 3rem;
+}
+
+.carouselContainer {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.carousel {
+  overflow: hidden;
+  width: 100%;
+}
+
+.carouselTrack {
+  display: flex;
+  padding: 0 1rem; /* Add padding to create space at the ends */
+  transition: transform 0.5s ease-in-out;
+}
+
+.card {
+  position: relative;
+  /* Adjust flex-basis to account for the margin between cards */
+  flex: 0 0 calc((100% / 3) - 2rem);
+  background-color: var(--color-grey-light);
+  border-radius: 16px;
+  padding: 3rem 2rem 2rem;
+  margin: 50px 1.2rem 0;
+  text-align: left;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+  min-height: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.cardImageContainer {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: lightgrey;
+  border-radius: 50%;
+  padding: 5px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.cardImageContainer img {
+  border-radius: 50%;
+  display: block;
+}
+
+.quote {
   font-size: 1.1rem;
+  font-style: italic;
+  color: var(--color-grey-dark);
+  margin-bottom: 1rem;
+}
+
+.name {
+  font-size: 1rem;
+  font-weight: bold;
+  color: var(--primary-color);
+  align-self: flex-end;
+}
+
+.arrow {
+  background-color: rgba(255, 255, 255, 0.7);
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  font-size: 2rem;
+  cursor: pointer;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s;
+}
+
+.arrow:hover {
+  background-color: white;
 }
