@@ -8,9 +8,12 @@ export default function Home() {
       <div className={styles.careTile}>
         <h2>Discover Homeopathy and Wellness</h2>
         <p>
-          Homeopathic care is valued for its holistic and personalized approach. The in-depth consultation allows practitioners to assess a patient&apos;s complete physical and emotional profile, ensuring they feel profoundly heard. This highly individualized focus builds a strong therapeutic relationship and contributes to high patient satisfaction. The remedies are extremely diluted, offering an excellent safety profile with virtually no side effects, making it appealing for sensitive individuals. Patients often report overall wellness improvements, including better sleep, mood, and energy, fostering a sense of self-care beyond just symptom relief.
-          </p>
-        <button className={styles.contactBtn}>Contact us</button>
+          <strong> Individualized, Holistic Assessment:</strong> We select a precise remedy based on your unique 'totality of symptoms'—physical, mental, and emotional—ensuring treatment targets the root cause, not just the diagnosis.<br />
+
+          <strong> Maximum Safety, Zero Toxicity:</strong>Remedies are non-toxic, free of chemical side effects, and safe for long-term use with no risk of drug dependency or addiction.<br />
+
+          <strong> Aiming for Cure, Not Suppression:</strong> Homeopathy stimulates the body’s self-healing mechanisms, allowing symptoms to naturally recede for a deep, lasting state of health.<br />
+        </p>
       </div>
     </section>
   );

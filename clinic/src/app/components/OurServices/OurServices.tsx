@@ -54,9 +54,9 @@ export default function OurServices() {
   return (
     <section className={styles.section}>
       <div className={styles.textContent}>
-        <h2 className={styles.heading}>Discover Our Services</h2>
+        <h2 className={styles.heading}>Our Specializations: Where Experience Meets Healing</h2>
         <p className={styles.text}>
-          Discover the range of healthcare services we offer.
+          Led by professional physicians Dr. Vijaya Singh and Dr. Amit Kumar, with 14 years of expertise in chronic cases, Maa Padmavati Homeo Clinic offers profound, personalized care. We aim to initiate a deep level of healing that addresses the root cause of your ailments, ensuring sustainable health and vitality.
         </p>
       </div>
       <div className={styles.flexRow}>
@@ -67,9 +67,8 @@ export default function OurServices() {
             className={styles.tileImage}
           />
           <div className={styles.tileText}>
-            <span className={styles.dot} />
-            <span className={styles.tileTitle}>Personalized Care</span>
-            <div className={styles.tileSubtitle}>Tailored to Your Needs</div>
+            <span className={styles.tileTitle}>Advanced Care for Women's Health</span>
+            <div className={styles.tileSubtitle}>Gynaecological Problems, PCOD, Fibroid, Infertility</div>
           </div>
         </div>
         <div className={styles.tile}>
@@ -79,10 +78,46 @@ export default function OurServices() {
             className={styles.tileImage}
           />
           <div className={styles.tileText}>
-            <span className={styles.dot} />
-            <span className={styles.tileTitle}>Skilled Nursing</span>
+            <span className={styles.tileTitle}>Deep Healing for Skin and Allergies</span>
             <div className={styles.tileSubtitle}>
-              Professional Medical Assistance
+              Skin Diseases, Allergic Diseases, Psoriasis
+            </div>
+          </div>
+        </div>
+        <div className={styles.tile}>
+          <img
+            src="/assets/therapy-services.png"
+            alt="Therapy Services"
+            className={styles.tileImage}
+          />
+          <div className={styles.tileText}>
+            <span className={styles.tileTitle}>Chronic & Systemic Disorders</span>
+            <div className={styles.tileSubtitle}>Autoimmune Diseases, Endocrine Diseases, Renal Stone</div>
+          </div>
+        </div>
+      </div>
+      <div className={styles.flexRow}>
+        <div className={styles.tile}>
+          <img
+            src="/assets/personalized-care.png"
+            alt="Personalized Care"
+            className={styles.tileImage}
+          />
+          <div className={styles.tileText}>
+            <span className={styles.tileTitle}>Mental, Emotional & Neurological Care</span>
+            <div className={styles.tileSubtitle}>Depression, Mental Diseases, Migraine</div>
+          </div>
+        </div>
+        <div className={styles.tile}>
+          <img
+            src="/assets/skilled-nursing.png"
+            alt="Skilled Nursing"
+            className={styles.tileImage}
+          />
+          <div className={styles.tileText}>
+            <span className={styles.tileTitle}>Paediatrics & Genetics</span>
+            <div className={styles.tileSubtitle}>
+              Specialized Paediatric and Genetic Support
             </div>
           </div>
         </div>
@@ -94,8 +129,8 @@ export default function OurServices() {
           />
           <div className={styles.tileText}>
             <span className={styles.dot} />
-            <span className={styles.tileTitle}>Therapy Services</span>
-            <div className={styles.tileSubtitle}>Rehabilitation and Support</div>
+            <span className={styles.tileTitle}>Building Resilience</span>
+            <div className={styles.tileSubtitle}>Foundational Wellness & Preventative Care</div>
           </div>
         </div>
       </div>

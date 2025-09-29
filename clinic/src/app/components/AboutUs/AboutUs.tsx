@@ -6,9 +6,12 @@ export default function AboutUs() {
     <section className={styles.section}>
       {/* <CircleImage2 imageUrl="/assets/doctor_img1.png" /> */}
       <div className={styles.textContainer}>
-        <h2>About Maa Padmavathi Homeo Clinic</h2>
+        <h2>Maa Padmavati Homeo Clinic</h2>
         <p>
-          Welcome to Maa Padmavathi Homeo Clinic, a trusted center for holistic health and healing conveniently located in the serene environs of Sarnath, Varanasi. For over 15 years, we have been dedicated to providing personalized and effective homeopathic care that addresses the root cause of ailments, not just the symptoms. Our clinic is founded on the principle of treating each patient with compassion and understanding, ensuring a comfortable and seamless healing journey for all. We pride ourselves on being an accessible and inclusive space, welcoming new patients with open arms and offering modern conveniences to make your experience with us as smooth as possible. At Maa Padmavathi Homeo Clinic, your well-being is our highest priority.
+          Welcome to Maa Padmavati Homeo Clinic, where your journey to lasting wellness begins.
+          We believe in providing compassionate, holistic care that addresses the root cause of illness, not just the symptoms. Our mission is to guide you toward a healthier, more balanced life using the gentle and effective principles of homeopathy.
+          We are dedicated to partnering with you on your path to recovery, offering personalized treatment plans and a supportive environment.
+          At our clinic, we are committed to helping you achieve true and sustainable health, empowering you to live your life to the fullest.
         </p>
       </div>
       <div className={styles.imagesContainer}>
@@ -19,7 +22,7 @@ export default function AboutUs() {
           <img src="/assets/elder_women_caretaker.png" alt="Doctor Banner" />
         </div>
         <div className={styles.imageBox}>
-          <img src="/assets/father_son.png" alt="Doctor 2" />
+          <img src="/assets/Doc_Medicine-1.jpg" alt="Doctor 2" />
         </div>
       </div>
     </section>
