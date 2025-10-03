@@ -1,10 +1,9 @@
 import styles from "./AboutUs.module.css";
-import CircleImage2 from "../CircleImage2/CircleImage2";
+import Image from "next/image";
 
 export default function AboutUs() {
   return (
     <section className={styles.section}>
-      {/* <CircleImage2 imageUrl="/assets/doctor_img1.png" /> */}
       <div className={styles.textContainer}>
         <h2>Maa Padmavati Homeo Clinic</h2>
         <p>
@@ -16,13 +15,13 @@ export default function AboutUs() {
       </div>
       <div className={styles.imagesContainer}>
         <div className={styles.imageBox}>
-          <img src="/assets/elder_man_doctor.png" alt="Doctor 1" />
+          <Image src="/assets/elder_man_doctor.png" alt="Doctor 1" width={300} height={300} />
         </div>
         <div className={styles.imageBox}>
-          <img src="/assets/elder_women_caretaker.png" alt="Doctor Banner" />
+          <Image src="/assets/elder_women_caretaker.png" alt="Doctor Banner" width={300} height={300} />
         </div>
         <div className={styles.imageBox}>
-          <img src="/assets/Doc_Medicine-1.jpg" alt="Doctor 2" />
+          <Image src="/assets/Doc_Medicine-1.jpg" alt="Doctor 2" width={300} height={300} />
         </div>
       </div>
     </section>

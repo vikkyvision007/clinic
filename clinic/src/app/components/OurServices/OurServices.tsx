@@ -2,6 +2,7 @@
 
 import styles from "./OurServices.module.css";
 import { useEffect } from "react";
+import Image from "next/image";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
@@ -61,21 +62,25 @@ export default function OurServices() {
       </div>
       <div className={styles.flexRow}>
         <div className={styles.tile}>
-          <img
+          <Image
             src="/assets/personalized-care.png"
             alt="Personalized Care"
             className={styles.tileImage}
+            width={225}
+            height={450}
           />
           <div className={styles.tileText}>
-            <span className={styles.tileTitle}>Advanced Care for Women's Health</span>
+            <span className={styles.tileTitle}>Advanced Care for Women&rsquo;s Health</span>
             <div className={styles.tileSubtitle}>Gynaecological Problems, PCOD, Fibroid, Infertility</div>
           </div>
         </div>
         <div className={styles.tile}>
-          <img
+          <Image
             src="/assets/skilled-nursing.png"
             alt="Skilled Nursing"
             className={styles.tileImage}
+            width={225}
+            height={450}
           />
           <div className={styles.tileText}>
             <span className={styles.tileTitle}>Deep Healing for Skin and Allergies</span>
@@ -85,10 +90,12 @@ export default function OurServices() {
           </div>
         </div>
         <div className={styles.tile}>
-          <img
+          <Image
             src="/assets/therapy-services.png"
             alt="Therapy Services"
             className={styles.tileImage}
+            width={225}
+            height={450}
           />
           <div className={styles.tileText}>
             <span className={styles.tileTitle}>Chronic & Systemic Disorders</span>
@@ -98,10 +105,12 @@ export default function OurServices() {
       </div>
       <div className={styles.flexRow}>
         <div className={styles.tile}>
-          <img
+          <Image
             src="/assets/personalized-care.png"
             alt="Personalized Care"
             className={styles.tileImage}
+            width={225}
+            height={450}
           />
           <div className={styles.tileText}>
             <span className={styles.tileTitle}>Mental, Emotional & Neurological Care</span>
@@ -109,10 +118,12 @@ export default function OurServices() {
           </div>
         </div>
         <div className={styles.tile}>
-          <img
+          <Image
             src="/assets/skilled-nursing.png"
             alt="Skilled Nursing"
             className={styles.tileImage}
+            width={225}
+            height={450}
           />
           <div className={styles.tileText}>
             <span className={styles.tileTitle}>Paediatrics & Genetics</span>
@@ -122,10 +133,12 @@ export default function OurServices() {
           </div>
         </div>
         <div className={styles.tile}>
-          <img
+          <Image
             src="/assets/therapy-services.png"
             alt="Therapy Services"
             className={styles.tileImage}
+            width={225}
+            height={450}
           />
           <div className={styles.tileText}>
             <span className={styles.dot} />

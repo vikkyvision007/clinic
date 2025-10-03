@@ -1,5 +1,6 @@
 import styles from "./MeetTheDoctors.module.css";
 import CircleImage2 from "../CircleImage2/CircleImage2";
+import Image from "next/image";
 
 export default function MeetTheDoctors() {
   return (
@@ -9,10 +10,12 @@ export default function MeetTheDoctors() {
         <div className={styles.doctorColumn}>
           <CircleImage2 imageUrl="/assets/doctor_img1.png" />
           <span className={styles.chip}>
-            <img
+            <Image
               src="/assets/icons/medical-18.svg"
               alt="Medical Icon"
               className={styles.chipIcon}
+              width={250}
+              height={250}
             />
             Doctor Vijaya Singh
           </span>
@@ -20,10 +23,12 @@ export default function MeetTheDoctors() {
         <div className={styles.doctorColumn}>
           <CircleImage2 imageUrl="/assets/father_son.png" />
           <span className={styles.chip}>
-            <img
+            <Image
               src="/assets/icons/medical-18.svg"
               alt="Medical Icon"
               className={styles.chipIcon}
+              width={250}
+              height={250}
             />
             Doctor Aryan Patel
           </span>
@@ -31,10 +36,12 @@ export default function MeetTheDoctors() {
         <div className={styles.doctorColumn}>
           <CircleImage2 imageUrl="/assets/doctor_img1.png" />
           <span className={styles.chip}>
-            <img
+            <Image
               src="/assets/icons/medical-18.svg"
               alt="Medical Icon"
               className={styles.chipIcon}
+              width={250}
+              height={250}
             />
             Doctor Meera Sharma
           </span>

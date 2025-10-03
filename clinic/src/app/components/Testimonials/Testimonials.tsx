@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 import styles from "./Testimonials.module.css";
 
 const testimonials = [
@@ -58,7 +59,7 @@ export default function Testimonials() {
             {testimonials.map((testimonial, index) => (
               <div key={index} className={styles.card}>
                 <div className={styles.cardImageContainer}>
-                  <img
+                  <Image
                     src={
                       testimonial.gender === "male" ? "/assets/avatar-young-man.svg" : "/assets/avatar-young-women.svg"
                     }

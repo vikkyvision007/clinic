@@ -2,6 +2,7 @@
 
 import styles from "./Benefits.module.css";
 import { useEffect } from "react";
+import Image from "next/image";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
@@ -81,7 +82,7 @@ export default function Benefits() {
 
       <div className={styles.row}>
         <span className={styles.coin}>
-          <img
+          <Image
             src="/assets/icons/medical-46.svg"
             alt="Medical Icon"
             width={120} height={120}
@@ -106,7 +107,7 @@ export default function Benefits() {
           </p>
         </div>
         <span className={styles.coin}>
-          <img
+          <Image
             src="/assets/icons/medical-45.svg"
             alt="Medical Icon"
             width={120} height={120}
@@ -116,7 +117,7 @@ export default function Benefits() {
       </div>
       <div className={styles.row}>
         <span className={styles.coin}>
-          <img
+          <Image
             src="/assets/icons/medical-43.svg"
             alt="Medical Icon"
             width={120} height={120}
@@ -138,7 +139,7 @@ export default function Benefits() {
           </p>
         </div>
         <span className={styles.coin}>
-          <img
+          <Image
             src="/assets/icons/medical-42.svg"
             alt="Medical Icon"
             width={120} height={120}
@@ -148,7 +149,7 @@ export default function Benefits() {
       </div>
       <div className={styles.row}>
         <span className={styles.coin}>
-          <img
+          <Image
             src="/assets/icons/medical-41.svg"
             alt="Medical Icon"
             width={120} height={120}

@@ -34,7 +34,7 @@
   background: transparent;
   z-index: 1;
   pointer-events: none;
-  box-shadow: 0 8px 32px 0 rgba(0,0,0,0.28);
+  /* box-shadow: 0 8px 32px 0 rgba(0,0,0,0.28); */
   transition: box-shadow 0.8s cubic-bezier(.68,-0.55,.27,1.55);
 }
 
