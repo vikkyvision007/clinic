@@ -10,21 +10,24 @@ export default function MeetTheDoctors() {
         <div className={styles.leftSection}>
           <div className={styles.doctorColumn}>
             <CircleImage2 imageUrl="/assets/doctor_img1.png" />
-            <span className={styles.chip}>
-              <Image
-                src="/assets/icons/medical-18.svg"
-                alt="Medical Icon"
-                className={styles.chipIcon}
-                width={250}
-                height={250}
-              />
-              Doctor Vijaya Singh
-            </span>
           </div>
         </div>
         <div className={styles.rightSection}>
           <div className={styles.doctorDetailsCard}>
-            <h3>Meet Dr. Vijaya Singh, Professional Physician</h3>
+            <div className={styles.cardHeader}>
+              <div className={styles.doctorIconCoin}>
+                <Image
+                  src="/assets/icons/medical-18.svg"
+                  alt="Medical Icon"
+                  width={80}
+                  height={80}
+                />
+              </div>
+              <div className={styles.doctorNameAndTitle}>
+                <h3>Dr. Vijaya Singh</h3>
+                <h5>B.H.M.S., D.A.F.E., C.G.O., C.S.D. <br/>Ex-RMO Distt. Hosp. Barabanki</h5>
+              </div>
+            </div>
             <p>
               Dr. Vijaya Singh is a highly experienced practitioner known for her meticulous case analysis and deeply compassionate approach to healing.
             </p>
@@ -40,19 +43,33 @@ export default function MeetTheDoctors() {
                 Patient-Centric Approach: Dr. Vijaya Singh believes in spending the time required to understand the emotional and mental state of her patients, knowing that true healing must encompass the mind and body.
               </li>
               <li>
-                Commitment to Women's Health: She has a particular focus on addressing hormonal imbalances, PCOD, and menopausal symptoms using gentle, natural remedies.
+                Commitment to Women&apos;s Health: She has a particular focus on addressing hormonal imbalances, PCOD, and menopausal symptoms using gentle, natural remedies.
               </li>
             </ul>
             <p>
-              Dr. Vijaya Singh's philosophy is rooted in the belief that the right homeopathic remedy can awaken the body's natural wisdom to restore perfect harmony.
+              Dr. Vijaya Singh&apos;s philosophy is rooted in the belief that the right homeopathic remedy can awaken the body&apos;s natural wisdom to restore perfect harmony.
             </p>
           </div>
         </div>
       </div>
       <div className={styles.twoSectionRow}>
-        <div className={styles.rightSection}>
+        <div className={`${styles.rightSection} ${styles.orderOnMobile}`}>
           <div className={styles.doctorDetailsCard}>
-            <h3>Meet Dr. Amit Kumar, Professional Physician</h3>
+            <div className={styles.cardHeader}>
+              <div className={styles.doctorIconCoin}>
+                <Image
+                  src="/assets/icons/medical-18.svg"
+                  alt="Medical Icon"
+                  width={80}
+                  height={80}
+                />
+              </div>
+              <div className={styles.doctorNameAndTitle}>
+                <h3>Dr. Amit Kumar</h3>
+                <h5>B.H.M.S., D.A.F.E. (Goldmedalist)
+                  <br />D.N.H.E., SCPH (ICHM,UN) MEDICAL OFFICER</h5>
+              </div>
+            </div>
             <p>
               Dr. Amit Kumar is a results-driven physician respected for his systematic approach to diagnosis and his expertise in treating challenging physical ailments.
             </p>
@@ -79,16 +96,6 @@ export default function MeetTheDoctors() {
         <div className={styles.leftSection}>
           <div className={styles.doctorColumn}>
             <CircleImage2 imageUrl="/assets/father_son.png" />
-            <span className={styles.chip}>
-              <Image
-                src="/assets/icons/medical-18.svg"
-                alt="Medical Icon"
-                className={styles.chipIcon}
-                width={250}
-                height={250}
-              />
-              Doctor Amit Kumar
-            </span>
           </div>
         </div>
       </div>

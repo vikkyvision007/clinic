@@ -1,9 +1,17 @@
 .section {
   padding: 2rem;
   /* background-color: var(--color-light-yellow); */
+  background-color: #f7faff;
 }
 
-.heading {}
+.heading {
+  text-align: center;
+}
+
+.textContent {
+  max-width: 80%;
+  margin: 0 auto 2rem auto;
+}
 
 .text {
   font-size: 1.1rem;
@@ -70,6 +78,33 @@
   height: 100%;
 }
 
+.cardHeader {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.doctorIconCoin {
+  background-color: #ffffff;
+  border-radius: 50%;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.doctorNameAndTitle {
+  display: flex;
+  flex-direction: column;
+}
+
+.doctorNameAndTitle h3, .doctorNameAndTitle h5 {
+  margin: 0;
+}
+
 .doctorDetailsCard ul {
   list-style-position: inside;
   padding-left: 0.5rem;
@@ -85,12 +120,20 @@
   .twoSectionRow {
     flex-direction: column;
     align-items: center;
+    margin: 2rem 1rem;
   }
-
 
   .doctorCard {
     min-width: unset;
     width: 100%;
     max-width: 320px;
+  }
+
+  .orderOnMobile {
+    order: -1;
+  }
+
+  .textContent {
+    max-width: 90%;
   }
 }

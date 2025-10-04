@@ -5,8 +5,9 @@
 }
 
 .textContent {
-  margin-bottom: 2rem;
+  margin: 0 auto 2rem;
   text-align: center;
+  width : 75%;
 }
 
 .flexRow {
@@ -41,29 +42,30 @@
 .tileText {
   display: flex;
   flex-direction: column;
-  align-items: center;
-}
-
-.dot {
-  width: 14px;
-  height: 14px;
-  background: #e5e6fa;
-  border-radius: 50%;
-  display: inline-block;
-  margin-bottom: 0.5rem;
+  padding: 0 .5rem 1rem;
 }
 
 .tileTitle {
-  font-size: 2rem;
-  font-weight: 500;
-  color: #23423a;
   margin-bottom: 0.5rem;
-  font-family: 'Georgia', serif;
 }
 
 .tileSubtitle {
-  font-size: 1.15rem;
-  color: #4a6a5a;
-  font-family: 'Inter', sans-serif;
+  margin-bottom: 0.5rem;
+}
+
+.tileContent {
+  font-size: 0.95rem;
+  color: #5a7a6a;
+  text-align: center;
+  width: 100%;
+}
+
+.tileContent ul {
+  text-align: left;
+  list-style-position: inside;
+  padding-left: 0;
+}
+
+.tileContent li {
   margin-bottom: 0.5rem;
 }
